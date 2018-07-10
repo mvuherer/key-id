@@ -1,0 +1,39 @@
+{
+  "author": {
+    "name": "Mihael Vuherer",
+    "email": "mihael.vuherer@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/mvuherer/key-id/issues"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "description": "Convert your sensitive IDs to keys before exposing them and get your IDs back from keys.",
+  "engines": {
+    "node": ">=8.2.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/mvuherer/key-id",
+  "license": "MIT",
+  "keywords": [
+    "encrypt id",
+    "id to key",
+    "key to id",
+    "id",
+    "key"
+  ],
+  "name": "key-id",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvuherer/key-id.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.0"
+}
