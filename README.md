@@ -6,9 +6,11 @@
 
 ## What it is for?
 
-Most common is exposing integer IDs as keys.
+Most common use case is exposing integer IDs as keys.
 
 Instead of having `/users/42`, that indicates how many users or any other sesitive business information you got in sequence, you would end up with `/users/6CD8818A7F3D2BCDA2C85C3F5331D857`, which can then be reverted back to ID `42` upon requests.
+
+Also lowers the posibility for someone blindly hitting an ID they should not be hitting anyway.
 
 ## Install
 
